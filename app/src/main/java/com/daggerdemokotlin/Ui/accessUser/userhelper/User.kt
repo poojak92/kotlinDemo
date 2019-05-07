@@ -1,4 +1,4 @@
-package com.daggerdemokotlin.util
+package com.daggerdemokotlin.Ui.accessUser.userhelper
 
 
 class User(fname:String,lname:String){

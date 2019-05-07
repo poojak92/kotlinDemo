@@ -2,11 +2,10 @@ package com.daggerdemokotlin.di.module
 
 import android.app.Application
 import android.content.Context
-import com.daggerdemokotlin.util.AppUserHelper
-import com.daggerdemokotlin.util.UserHelper
+import com.daggerdemokotlin.Ui.accessUser.userhelper.AppUserHelper
+import com.daggerdemokotlin.Ui.accessUser.userhelper.UserHelper
 import dagger.Module
 import dagger.Provides
-import javax.inject.Named
 import javax.inject.Singleton
 
 @Module

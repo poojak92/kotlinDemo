@@ -1,4 +1,4 @@
-package com.daggerdemokotlin.Ui.interactor
+package com.daggerdemokotlin.Ui.accessUser.interactor
 
 import com.daggerdemokotlin.Ui.base.interactor.MVPInteractor
 

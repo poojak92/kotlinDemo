@@ -1,4 +1,4 @@
-package com.daggerdemokotlin.Ui.View
+package com.daggerdemokotlin.Ui.accessUser.View
 
 import com.mindorks.framework.mvp.ui.base.view.MVPView
 

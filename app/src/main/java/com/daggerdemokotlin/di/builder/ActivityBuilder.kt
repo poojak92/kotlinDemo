@@ -1,8 +1,8 @@
 package com.mindorks.framework.mvp.di.builder
 
 
-import com.daggerdemokotlin.Ui.MainActivityModule
-import com.daggerdemokotlin.Ui.View.MainActivity
+import com.daggerdemokotlin.Ui.accessUser.MainActivityModule
+import com.daggerdemokotlin.Ui.accessUser.View.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

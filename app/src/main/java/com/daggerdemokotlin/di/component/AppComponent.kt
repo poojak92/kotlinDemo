@@ -3,7 +3,6 @@ package com.daggerdemokotlin.di.component
 import android.app.Application
 import com.daggerdemokotlin.MvpApp
 import com.daggerdemokotlin.di.module.AppModule
-import com.daggerdemokotlin.util.AppUserHelper
 import com.mindorks.framework.mvp.di.builder.ActivityBuilder
 import dagger.BindsInstance
 import dagger.Component

@@ -1,7 +1,7 @@
 package com.mindorks.framework.mvp.ui.base.interactor
 
 import com.daggerdemokotlin.Ui.base.interactor.MVPInteractor
-import com.daggerdemokotlin.util.UserHelper
+import com.daggerdemokotlin.Ui.accessUser.userhelper.UserHelper
 
 
 /**

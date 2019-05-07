@@ -1,6 +1,6 @@
-package com.daggerdemokotlin.Ui.interactor
+package com.daggerdemokotlin.Ui.accessUser.interactor
 
-import com.daggerdemokotlin.util.UserHelper
+import com.daggerdemokotlin.Ui.accessUser.userhelper.UserHelper
 import com.mindorks.framework.mvp.ui.base.interactor.BaseInteractor
 import javax.inject.Inject
 

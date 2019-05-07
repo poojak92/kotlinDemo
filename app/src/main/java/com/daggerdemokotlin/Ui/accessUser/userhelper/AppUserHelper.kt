@@ -1,11 +1,7 @@
-package com.daggerdemokotlin.util
+package com.daggerdemokotlin.Ui.accessUser.userhelper
 
 import android.content.Context
-import com.daggerdemokotlin.util.User
-import dagger.Module
-import dagger.Provides
 import javax.inject.Inject
-import javax.inject.Singleton
 
 /*@Module
 class AppUserHelper {

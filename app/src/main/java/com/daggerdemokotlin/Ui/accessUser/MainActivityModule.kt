@@ -1,10 +1,10 @@
-package com.daggerdemokotlin.Ui
+package com.daggerdemokotlin.Ui.accessUser
 
-import com.daggerdemokotlin.Ui.View.MainMVPView
-import com.daggerdemokotlin.Ui.interactor.MainInteractor
-import com.daggerdemokotlin.Ui.interactor.MainMVPInteractor
-import com.daggerdemokotlin.Ui.presenter.MainMVPPresenter
-import com.daggerdemokotlin.Ui.presenter.MainPresenter
+import com.daggerdemokotlin.Ui.accessUser.View.MainMVPView
+import com.daggerdemokotlin.Ui.accessUser.interactor.MainInteractor
+import com.daggerdemokotlin.Ui.accessUser.interactor.MainMVPInteractor
+import com.daggerdemokotlin.Ui.accessUser.presenter.MainMVPPresenter
+import com.daggerdemokotlin.Ui.accessUser.presenter.MainPresenter
 import dagger.Module
 import dagger.Provides
 
