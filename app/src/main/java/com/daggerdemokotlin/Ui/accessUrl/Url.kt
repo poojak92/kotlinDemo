@@ -15,8 +15,5 @@ constructor(@param:Named("serverUrl") var serverUrl: String?) : urlHelper {
         }
         return false
     }
-    /* fun callServer(user: User?): Boolean {
-         // System.out.println("P111"+"User: " + user.toString() );
 
-     }*/
 }
