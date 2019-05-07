@@ -16,6 +16,8 @@ class MainPresenter<V : MainMVPView, I : MainMVPInteractor> @Inject internal con
             getView()?.let {
                 it.hideProgress()
                 it.showSuccessToast()
+
+
             }
         }else{
             getView()?.showErrorToast()
