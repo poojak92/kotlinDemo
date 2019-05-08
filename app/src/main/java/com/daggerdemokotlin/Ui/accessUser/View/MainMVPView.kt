@@ -8,7 +8,7 @@ import com.mindorks.framework.mvp.ui.base.view.MVPView
  */
 interface MainMVPView : MVPView {
 
-    fun showSuccessToast()
+    fun showSuccessToast(tempurl : String)
     fun showErrorToast()
 
 }

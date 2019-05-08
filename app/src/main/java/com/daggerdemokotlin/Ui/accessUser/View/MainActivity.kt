@@ -32,7 +32,9 @@ class MainActivity : BaseActivity() ,MainMVPView{
 
     }
 
-    override fun showSuccessToast() {
+    override fun showSuccessToast(tempurl :String) {
+        System.out.println("P----implemented: ---"+tempurl) ;//To change body of created functions use File | Settings | File Templates.
+
         val intent = Intent(this, TestActivity::class.java)
         startActivity(intent)
         finish()

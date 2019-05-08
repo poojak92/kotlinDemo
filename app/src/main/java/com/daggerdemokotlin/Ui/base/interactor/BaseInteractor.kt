@@ -1,5 +1,6 @@
 package com.mindorks.framework.mvp.ui.base.interactor
 
+import com.daggerdemokotlin.Ui.accessUrl.urlHelper
 import com.daggerdemokotlin.Ui.base.interactor.MVPInteractor
 import com.daggerdemokotlin.Ui.accessUser.userhelper.UserHelper
 
@@ -14,8 +15,11 @@ open class BaseInteractor() : MVPInteractor {
 
     protected lateinit var userHelper: UserHelper
 
-    constructor(userHelper: UserHelper) : this() {
+    protected lateinit var urlHelper: urlHelper
+
+    constructor(userHelper: UserHelper , urlHelper: urlHelper) : this() {
         this.userHelper = userHelper
+        this.urlHelper = urlHelper
     }
 
 

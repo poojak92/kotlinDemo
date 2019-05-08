@@ -12,11 +12,12 @@ class MainPresenter<V : MainMVPView, I : MainMVPInteractor> @Inject internal con
     BasePresenter<V, I>(interactor = interactor), MainMVPPresenter<V, I> {
     override fun onButtonClicked(){
         var flag = iscalled()
+        val t = isurl()
+
         if(flag){
             getView()?.let {
                 it.hideProgress()
-                it.showSuccessToast()
-
+                it.showSuccessToast(t)
 
             }
         }else{
@@ -25,8 +26,14 @@ class MainPresenter<V : MainMVPView, I : MainMVPInteractor> @Inject internal con
     }
 
     private fun iscalled(): Boolean {
-        interactor?.let { return it.callserver() }
+        interactor?.let { return it.calluser() }
         return false
+    }
+
+    private fun isurl(): String {
+        interactor?.let {
+            return it.doServerLoginApiCall() }
+        return "not get"
     }
 
 }
